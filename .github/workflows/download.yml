@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements-download.txt
       
       - name: Download 
-        run: python scripts/download.py
+        run: python download.py
  
       - name: Commit and push if it changed
         run: |-
