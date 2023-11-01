@@ -1,45 +1,89 @@
-Polling Firm,Commissioners,Fieldwork Start,Fieldwork End,Scope,Sample Size,Sample Size Qualification,Participation,Precision,Δημοκρατικός Συναγερμός,Ανορθωτικό Κόμμα Εργαζόμενου Λαού,Δημοκρατικό Κόμμα,Εθνικό Λαϊκό Μέτωπο,Κίνημα Σοσιαλδημοκρατών,Συμμαχία Πολιτών,Κίνημα Οικολόγων—Συνεργασία Πολιτών,Κίνημα Αλληλεγγύη,ημοκρατική Παράταξη,Κίνημα Σοσιαλδημοκρατών–Συμμαχία Πολιτών,Ανεξάρτητοι,Other
-IMR/UNic,Reporter,2023-09-18,2023-09-22,National,1000,Provided,69%,0.1%,26%,29%,10%,17%,3%,Not Available,6%,Not Available,1%,Not Available,Not Available,Not Available
-Symmetron,Η Καθημερινή,2021-05-14,2021-05-20,National,1000,Provided,73.3%,0.1%,25.5%,23.3%,12.8%,6.7%,Not Available,Not Available,6.3%,2.3%,4.9%,6.0%,3.5%,8.7%
-Pulse,Alpha TV,2021-05-17,2021-05-21,National,1500,Provided,70.5%,0.1%,25.5%,23.4%,12.8%,7.8%,Not Available,Not Available,7.1%,2.8%,3.5%,6.4%,3.5%,7.2%
-Cypronetwork,Omega TV,2021-05-10,2021-05-18,National,1602,Provided,70.9%,0.1%,25.2%,23.4%,12.4%,5.9%,Not Available,Not Available,6.9%,3.7%,3.7%,7.2%,5.8%,5.8%
-IMR/UNic,CyBC,2021-05-05,2021-05-15,National,1403,Provided,79.5%,0.1%,26.4%,23.9%,11.9%,6.9%,Not Available,Not Available,6.9%,1.9%,3.8%,6.9%,3.1%,8.3%
-Prime Consulting,Sigma TV,2021-05-10,2021-05-14,National,1273,Provided,64.3%,0.1%,25.8%,23.5%,13.2%,6.8%,Not Available,Not Available,5.4%,1.6%,3.6%,5.8%,3.6%,10.3%
-Noverna,Politis,2021-05-05,2021-05-13,National,750,Provided,Not Available,0.1%,26.1%,24.8%,10.7%,8.5%,Not Available,Not Available,7.0%,1.4%,4.3%,5.8%,4.4%,7.0%
-Prime Consulting,Cyprus Times,2021-05-06,2021-05-12,National,1000,Provided,Not Available,0.1%,25.6%,23.5%,12.9%,6.7%,Not Available,Not Available,6.2%,2.4%,3.8%,5.7%,3.3%,9.9%
-CYMAR,ANT1,2021-05-04,2021-05-12,National,1130,Provided,Not Available,0.1%,26.9%,22.9%,14.3%,6.2%,Not Available,Not Available,7.1%,1.7%,2.7%,6.0%,3.5%,8.7%
-Pulse,Alpha TV,2021-05-04,2021-05-07,National,1200,Provided,Not Available,0.1%,25.7%,22.9%,12.1%,7.1%,Not Available,Not Available,7.1%,2.9%,3.6%,5.7%,3.6%,9.3%
-Noverna,Politis,2021-04-07,2021-04-23,National,750,Provided,Not Available,0.1%,28.4%,26.9%,12.9%,6.5%,Not Available,Not Available,6.5%,0.9%,3.1%,6.1%,3.4%,5.3%
-Cypronetwork,Omega TV,2021-04-13,2021-04-17,National,1012,Provided,Not Available,0.1%,25.8%,22.7%,14.0%,6.2%,Not Available,Not Available,7.6%,2.9%,2.5%,6.8%,6.5%,5.0%
-Prime Consulting,Sigma TV,2021-04-12,2021-04-16,National,1050,Provided,Not Available,0.1%,26.3%,24.0%,13.3%,6.6%,Not Available,Not Available,6.1%,1.8%,3.4%,5.1%,4.6%,7.8%
-IMR/UNic,CyBC,2021-03-31,2021-04-16,National,1400,Provided,Not Available,0.1%,27.2%,24.5%,13.6%,6.1%,Not Available,Not Available,6.8%,1.4%,4.1%,6.8%,5.4%,4.1%
-Symmetron,Η Καθημερινή,2021-04-02,2021-04-09,National,800,Provided,Not Available,0.1%,26.4%,23.9%,14.5%,5.8%,Not Available,Not Available,7.4%,1.5%,4.1%,5.8%,5.8%,4.8%
-CYMAR,ANT1,2021-03-26,2021-04-09,National,1002,Provided,Not Available,0.1%,28.1%,24.6%,12.0%,8.5%,Not Available,Not Available,6.5%,0.7%,2.6%,4.8%,5.4%,6.8%
-Conread,CyprusNews,2021-03-09,2021-04-04,National,828,Provided,Not Available,0.1%,26.9%,22.1%,14.1%,6.2%,Not Available,Not Available,6.1%,0.6%,2.2%,6.1%,8.3%,7.4%
-Cypronetwork,Ὁ Φιλελεύθερος,2021-03-21,2021-03-30,National,1000,Provided,Not Available,0.1%,26.2%,22.5%,13.1%,7.4%,Not Available,Not Available,6.6%,2.6%,3.9%,6.0%,6.7%,5.0%
-IMR/UNic,CyBC,2021-03-08,2021-03-20,National,1416,Provided,Not Available,0.1%,26.0%,23.3%,14.4%,6.2%,Not Available,Not Available,8.2%,2.1%,4.1%,5.5%,6.8%,3.4%
-Pulse,Alpha TV,2021-03-08,2021-03-18,National,1000,Provided,Not Available,0.1%,25.8%,21.2%,13.6%,4.5%,Not Available,Not Available,9.1%,1.5%,3.0%,6.1%,4.5%,10.7%
-Prime Consulting,Sigma TV,2021-03-08,2021-03-12,National,1050,Provided,Not Available,0.1%,23.9%,21.3%,11.9%,5.8%,Not Available,Not Available,6.1%,1.9%,3.0%,4.8%,1.9%,10.4%
-GPO,Χαραυγή,2021-02-25,2021-03-02,National,800,Provided,Not Available,0.1%,28.1%,26.3%,13.8%,9.2%,Not Available,Not Available,8.4%,1.6%,3.4%,4.8%,3.4%,2.6%
-Symmetron,Η Καθημερινή,2021-02-12,2021-02-19,National,800,Provided,Not Available,0.1%,26.9%,22.0%,14.2%,5.7%,Not Available,Not Available,7.7%,2.0%,3.9%,5.5%,3.0%,2.6%
-Prime Consulting,Sigma TV,2021-02-01,2021-02-06,National,1100,Provided,Not Available,0.1%,28.4%,24.5%,13.5%,6.7%,Not Available,Not Available,7.0%,0.9%,2.8%,5.4%,3.3%,7.5%
-Interview,Politis,2021-01-20,2021-01-25,National,705,Provided,Not Available,0.1%,30.0%,20.5%,12.0%,4.8%,Not Available,Not Available,4.0%,4.8%,4.3%,4.8%,Not Available,14.8%
-Prime Consulting,Sigma TV,2020-10-16,2020-10-23,National,1050,Provided,Not Available,0.1%,30.5%,26.1%,13.2%,6.2%,6.2%,Not Available,6.0%,1.8%,2.5%,Not Available,Not Available,7.5%
-Symmetron,,2020-06-19,2020-06-25,National,600,Provided,Not Available,0.1%,38.9%,25.5%,14.6%,4.7%,5.0%,1.3%,4.7%,1.6%,3.6%,Not Available,Not Available,Not Available
-RetailZoom,Politis,2020-05-13,2020-05-14,National,2155,Provided,Not Available,0.1%,42.2%,29.5%,5.2%,5.0%,1.3%,1.3%,5.1%,2.6%,7.6%,Not Available,Not Available,Not Available
-IMR,University of Nicosia,2019-05-13,2019-05-17,European,1000,Provided,Not Available,1%,35%,25%,14%,8%,8%,Not Available,5%,Not Available,Not Available,Not Available,Not Available,Not Available
-Symmetron,,2019-05-10,2019-05-17,European,924,Provided,Not Available,1%,30%,25%,15%,9%,8%,Not Available,6%,Not Available,Not Available,Not Available,Not Available,Not Available
-Cypronetwork,,2019-05-02,2019-05-14,European,1400,Provided,Not Available,1%,32%,28%,15%,8%,8%,Not Available,6%,Not Available,Not Available,Not Available,Not Available,Not Available
-Pulse Market Research,,2019-05-09,2019-05-13,European,1001,Provided,Not Available,1%,31%,26%,13%,9%,8%,Not Available,6%,Not Available,Not Available,Not Available,Not Available,Not Available
-Noverna,,2019-05-04,2019-05-13,European,800,Provided,Not Available,1%,33%,29%,13%,8%,7%,Not Available,4%,Not Available,Not Available,Not Available,Not Available,Not Available
-Cymar,,2019-05-02,2019-05-12,European,1002,Provided,Not Available,1%,32%,27%,15%,8%,5%,Not Available,3%,Not Available,Not Available,Not Available,Not Available,Not Available
-Prime Consulting,,2019-05-06,2019-05-10,European,1130,Provided,Not Available,1%,30%,25%,14%,9%,8%,Not Available,6%,Not Available,Not Available,Not Available,Not Available,Not Available
-Cymar,,2019-04-09,2019-04-17,European,1002,Provided,Not Available,1%,30%,26%,16%,9%,7%,Not Available,4%,Not Available,Not Available,Not Available,Not Available,Not Available
-Cypronetwork,,2019-04-04,2019-04-14,European,1402,Provided,Not Available,1%,34%,26%,17%,7%,7%,Not Available,6%,Not Available,Not Available,Not Available,Not Available,Not Available
-Prime Consulting,,2019-04-05,2019-04-12,European,836,Provided,Not Available,1%,32%,26%,15%,9%,8%,Not Available,4%,Not Available,Not Available,Not Available,Not Available,Not Available
-Symmetron,,2019-04-05,2019-04-12,European,822,Provided,Not Available,1%,33%,25%,15%,9%,7%,Not Available,5%,Not Available,Not Available,Not Available,Not Available,Not Available
-IMR,University of Nicosia,2019-03-18,2019-04-04,European,1200,Provided,Not Available,1%,36%,25%,14%,9%,7%,Not Available,3%,Not Available,Not Available,Not Available,Not Available,Not Available
-Prime Consulting,,2019-03-08,2019-03-15,European,900,Provided,Not Available,1%,33%,26%,15%,8%,8%,Not Available,4%,Not Available,Not Available,Not Available,Not Available,Not Available
-Pulse Market Research,,2019-01-16,2019-01-29,European,807,Provided,Not Available,1%,37%,26%,13%,11%,6%,Not Available,2%,Not Available,Not Available,Not Available,Not Available,Not Available
-Symmetron,,2018-09-24,2018-10-03,National,800,Provided,Not Available,1%,33%,23%,15%,6%,5%,2%,6%,3%,Not Available,Not Available,Not Available,Not Available
-Symmetron,,2018-01-11,2018-01-16,National,1000,Provided,Not Available,1%,40%,25%,16%,7%,5%,3%,2%,2%,Not Available,Not Available,Not Available,Not Available
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+    <title>Page not found &middot; GitHub Pages</title>
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f1f1f1;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+
+      a { color: #4183c4; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+
+      ul { list-style: none; margin: 25px 0; padding: 0; }
+      li { display: table-cell; font-weight: bold; width: 1%; }
+
+      .logo { display: inline-block; margin-top: 35px; }
+      .logo-img-2x { display: none; }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        .logo-img-1x { display: none; }
+        .logo-img-2x { display: inline-block; }
+      }
+
+      #suggestions {
+        margin-top: 35px;
+        color: #ccc;
+      }
+      #suggestions a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>404</h1>
+      <p><strong>File not found</strong></p>
+
+      <p>
+        The site configured at this address does not
+        contain the requested file.
+      </p>
+
+      <p>
+        If this is your site, make sure that the filename case matches the URL
+        as well as any file permissions.<br>
+        For root URLs (like <code>http://example.com/</code>) you must provide an
+        <code>index.html</code> file.
+      </p>
+
+      <p>
+        <a href="https://help.github.com/pages/">Read the full documentation</a>
+        for more information about using <strong>GitHub Pages</strong>.
+      </p>
+
+      <div id="suggestions">
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+
+      <a href="/" class="logo logo-img-1x">
+        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=">
+      </a>
+
+      <a href="/" class="logo logo-img-2x">
+        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mM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">
+      </a>
+    </div>
+  </body>
+</html>
