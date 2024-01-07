@@ -1,4 +1,4 @@
-name: Download Data from EuropeElects
+name: Download Data from EuropeElects v2
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10
+          python-version: 3.8
 
       - name: Install dependencies
         run: pip install -r v2/requirements-download.txt
