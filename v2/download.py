@@ -26,7 +26,6 @@ table = r.html.find("figure[class=wp-block-table]")[0].find("table")[0]
 data = []
 for row in table.find('tr'):
   cells = row.find('td')
-  print(cells)
   if cells:
     country = cells[0].find('a', first=True)
     country_name = country.text if country else None
