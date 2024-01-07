@@ -1,0 +1,47 @@
+country_code,country_name,country_link,data_link
+al,Albania,https://europeelects.eu/albania/,https://storage.googleapis.com/asapop-website-20220812/_csv/al.csv
+ad,Andorra,https://europeelects.eu/andorra/,https://storage.googleapis.com/asapop-website-20220812/_csv/ad.csv
+am,Armenia,https://europeelects.eu/armenia/,https://storage.googleapis.com/asapop-website-20220812/_csv/am.csv
+at,Austria,https://europeelects.eu/european-union/austria/,https://storage.googleapis.com/asapop-website-20220812/_csv/at.csv
+be-bru,Belgium: Brussels,https://europeelects.eu/european-union/belgium/,https://storage.googleapis.com/asapop-website-20220812/_csv/be-bru.csv
+be-vlg,Belgium: Flanders,https://europeelects.eu/european-union/belgium/,https://storage.googleapis.com/asapop-website-20220812/_csv/be-vlg.csv
+be-wal,Belgium: Wallonia,https://europeelects.eu/european-union/belgium/,https://storage.googleapis.com/asapop-website-20220812/_csv/be-wal.csv
+bg,Bulgaria,https://europeelects.eu/european-union/bulgaria/,https://storage.googleapis.com/asapop-website-20220812/_csv/bg.csv
+hr,Croatia,https://europeelects.eu/european-union/croatia-2/,https://storage.googleapis.com/asapop-website-20220812/_csv/hr.csv
+cy,Cyprus,https://europeelects.eu/european-union/cyprus/,https://storage.googleapis.com/asapop-website-20220812/_csv/cy.csv
+cz,Czechia,https://europeelects.eu/european-union/czechia/,https://storage.googleapis.com/asapop-website-20220812/_csv/cz.csv
+dk,Denmark,https://europeelects.eu/european-union/denmark/,https://storage.googleapis.com/asapop-website-20220812/_csv/dk.csv
+ee,Estonia,https://europeelects.eu/european-union/estonia/,https://storage.googleapis.com/asapop-website-20220812/_csv/ee.csv
+fi,Finland,https://europeelects.eu/european-union/finland/,https://storage.googleapis.com/asapop-website-20220812/_csv/fi.csv
+fr,France,https://europeelects.eu/european-union/france/,https://storage.googleapis.com/asapop-website-20220812/_csv/fr.csv
+ge,Georgia,https://europeelects.eu/georgia/,https://storage.googleapis.com/asapop-website-20220812/_csv/ge.csv
+de,Germany,https://europeelects.eu/european-union/germany/,https://storage.googleapis.com/asapop-website-20220812/_csv/de.csv
+gr,Greece,https://europeelects.eu/european-union/greece/,https://storage.googleapis.com/asapop-website-20220812/_csv/gr.csv
+hu,Hungary,https://europeelects.eu/european-union/hungary/,https://storage.googleapis.com/asapop-website-20220812/_csv/hu.csv
+is,Iceland,https://europeelects.eu/iceland/,https://storage.googleapis.com/asapop-website-20220812/_csv/is.csv
+ie,Ireland,https://europeelects.eu/european-union/ireland/,https://storage.googleapis.com/asapop-website-20220812/_csv/ie.csv
+it,Italy,https://europeelects.eu/european-union/italy/,https://storage.googleapis.com/asapop-website-20220812/_csv/it.csv
+xk,Kosovo,https://europeelects.eu/kosovo/,https://storage.googleapis.com/asapop-website-20220812/_csv/xk.csv
+lv,Latvia,https://europeelects.eu/european-union/latvia/,https://storage.googleapis.com/asapop-website-20220812/_csv/lv.csv
+lt,Lithuania,https://europeelects.eu/european-union/lithuania/,https://storage.googleapis.com/asapop-website-20220812/_csv/lt.csv
+lu,Luxembourg,https://europeelects.eu/european-union/luxembourg/,https://storage.googleapis.com/asapop-website-20220812/_csv/lu.csv
+mt,Malta,https://europeelects.eu/european-union/malta/,https://storage.googleapis.com/asapop-website-20220812/_csv/mt.csv
+md,Moldova,https://europeelects.eu/moldova/,https://storage.googleapis.com/asapop-website-20220812/_csv/md.csv
+me,Montenegro,https://europeelects.eu/montenegro/,https://storage.googleapis.com/asapop-website-20220812/_csv/me.csv
+nl,Netherlands,https://europeelects.eu/european-union/netherlands/,https://storage.googleapis.com/asapop-website-20220812/_csv/nl.csv
+mk,North Macedonia,https://europeelects.eu/northmacedonia/,https://storage.googleapis.com/asapop-website-20220812/_csv/mk.csv
+no,Norway,https://europeelects.eu/norway/,https://storage.googleapis.com/asapop-website-20220812/_csv/no.csv
+pl,Poland,https://europeelects.eu/european-union/poland/,https://storage.googleapis.com/asapop-website-20220812/_csv/pl.csv
+pt,Portugal,https://europeelects.eu/european-union/portugal/,https://storage.googleapis.com/asapop-website-20220812/_csv/pt.csv
+ro,Romania,https://europeelects.eu/european-union/romania/,https://storage.googleapis.com/asapop-website-20220812/_csv/ro.csv
+ru,Russia,https://europeelects.eu/russia/,https://storage.googleapis.com/asapop-website-20220812/_csv/ru.csv
+rs,Serbia,https://europeelects.eu/serbia/,https://storage.googleapis.com/asapop-website-20220812/_csv/rs.csv
+sk,Slovakia,https://europeelects.eu/european-union/slovakia/,https://storage.googleapis.com/asapop-website-20220812/_csv/sk.csv
+si,Slovenia,https://europeelects.eu/european-union/slovenia/,https://storage.googleapis.com/asapop-website-20220812/_csv/si.csv
+es,Spain,https://europeelects.eu/european-union/spain/,https://storage.googleapis.com/asapop-website-20220812/_csv/es.csv
+se,Sweden,https://europeelects.eu/european-union/sweden/,https://storage.googleapis.com/asapop-website-20220812/_csv/se.csv
+ch,Switzerland,https://europeelects.eu/switzerland,https://storage.googleapis.com/asapop-website-20220812/_csv/ch.csv
+tr,Türkiye,https://europeelects.eu/turkey,https://storage.googleapis.com/asapop-website-20220812/_csv/tr.csv
+gb,UK: Great Britain,https://europeelects.eu/european-union/uk/,https://storage.googleapis.com/asapop-website-20220812/_csv/gb.csv
+gb-nir,UK: Northern Ireland,https://europeelects.eu/european-union/uk/,https://filipvanlaenen.github.io/eopaod/gb-nir.csv
+ua,Ukraine,https://europeelects.eu/ukraine/,https://storage.googleapis.com/asapop-website-20220812/_csv/ua.csv
