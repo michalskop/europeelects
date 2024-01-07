@@ -22,7 +22,7 @@ jobs:
         run: pip install -r v2/requirements-download.txt
 
       - name: Run download.py
-        run: python download.py
+        run: python v2/download.py
       - name: Commit and Push changes
         run: |
           git config --global user.name "Automated"
