@@ -5,6 +5,10 @@ import gspread_formatting
 import pandas as pd
 import time
 
+# suppress SettingWithCopyWarning
+import warnings
+warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
+
 # local path
 localpath = "v2/"
 
@@ -32,6 +36,7 @@ election_types = ["National", "European"]
 for c in df0.iterrows():
   country_code = c[1]["country_code"]
   # read data
+  print("Reading " + country_code + ".")
   df = pd.read_csv(localpath + "data/" + country_code + ".csv")
   # National vs EU
   for election_type in election_types:
@@ -60,7 +65,7 @@ for c in df0.iterrows():
     df2 = df2.applymap(lambda x: str(x).replace('%', '') if isinstance(x, str) else x)
     df2 = df2.apply(pd.to_numeric, errors='coerce').fillna(0)
     # sort columns by first and second rows' values, highest first
-    if len(df2.columns) > 1:
+    if len(df2) > 1:
       df2 = df2.T.sort_values(by=[df2.index[0], df2.index[1]], ascending=False).T
     else:
       df2 = df2.T.sort_values(by=[df2.index[0]], ascending=False).T
