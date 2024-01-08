@@ -1,0 +1,33 @@
+name: Write Data from local files to Gsheets v2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "31 9,21 * * *"
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: pip install -r v2/requirements-write.txt
+
+      - name: Run write.py
+        run: python v2/write.py
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Automated"
+          git config --global user.email "actions@users.noreply.github.com"
+          git add .
+          timestamp=$(date "+%Y-%m-%dT%H:%M:%S")
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
