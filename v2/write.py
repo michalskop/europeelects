@@ -6,8 +6,8 @@ import pandas as pd
 import time
 
 # suppress SettingWithCopyWarning
-import warnings
-warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
+# import warnings
+# warnings.filterwarnings('ignore', category=pd.errors.SettingWithCopyWarning)
 
 # local path
 localpath = "v2/"

@@ -1,4 +1,4 @@
 gspread
 gspread_formatting
 pandas
-warnings
+# warnings - not working for 3.8
