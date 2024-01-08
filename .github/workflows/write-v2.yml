@@ -21,8 +21,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r v2/requirements-write.txt
 
+      - name: Create service_account.json
+        run: |
+          mkdir -p /home/runner/.config/gspread/
+          echo '${{ secrets.SERVICE_ACCOUNT_JSON }}' > /home/runner/.config/gspread/service_account.json
+
       - name: Run write.py
         run: python v2/write.py
+      
+      - name: Delete service_account.json
+        run: rm /home/runner/.config/gspread/service_account.json
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "Automated"
