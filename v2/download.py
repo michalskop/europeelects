@@ -2,6 +2,7 @@
 
 import csv
 import requests
+import csv
 import requests_html
 import time
 
@@ -58,8 +59,10 @@ import csv
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
+  r = requests.get(d["data_link"], stream=True)
   if r.status_code == 200:
+    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+        f.write(r.content)
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
       f.write(r.content)
   time.sleep(1)
