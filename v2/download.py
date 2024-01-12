@@ -4,9 +4,13 @@ import csv
 import requests
 import requests_html
 import time
+from urllib3.exceptions import InvalidChunkLength
 
 # local path
+from urllib3.exceptions import InvalidChunkLength
 localpath = "v2/"
+
+relevant_files = "v2/download.py"
 
 # overview table url
 url0 = "https://europeelects.eu/data/"
