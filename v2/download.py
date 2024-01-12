@@ -45,6 +45,13 @@ for row in table.find('tr'):
 
 # write data to csv
 with open(localpath + "list.csv", "w") as f:
+
+# write data to csv
+with open(localpath + "list.csv", "w") as f:
+# write data to csv
+with open(localpath + "list.csv", "w") as f:
+import requests_html
+import csv
   writer = csv.DictWriter(f, fieldnames=data[0].keys())
   writer.writeheader()
   writer.writerows(data)
