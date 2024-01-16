@@ -1,6 +1,7 @@
 """Download data from EuropeElects.eu."""
 
 import csv
+import traceback
 import requests
 import requests_html
 import urllib3
@@ -35,14 +36,18 @@ for row in table.find('tr'):
     try:
       data_link = cells[1].find('a', first=True).attrs['href']
       country_code = data_link.split("/")[-1].split(".")[0]
-    except:
-      data_link = None
+    except Exception as e:
+      print(f"Error processing row: {e}")
+      continue
     if country_name and country_link and data_link:
       data.append({
         "country_code": country_code,
         "country_name": country_name, 
         "country_link": country_link,
         "data_link": data_link
+      })
+  else:
+    print("No cells found for row")
       })
 
 # write data to csv
