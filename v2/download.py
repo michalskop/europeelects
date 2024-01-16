@@ -1,5 +1,6 @@
 """Download data from EuropeElects.eu."""
 
+import traceback
 import csv
 import traceback
 import requests
@@ -54,7 +55,11 @@ for row in table.find('tr'):
 with open(localpath + "list.csv", "w") as f:
   writer = csv.DictWriter(f, fieldnames=data[0].keys())
   writer.writeheader()
-  writer.writerows(data)
+  try:
+    writer.writerows(data)
+except Exception as e:
+    print('Error writing to CSV file:', e)
+    raise Exception('Failed to write to CSV file')
 
 # download data
 for d in data:
