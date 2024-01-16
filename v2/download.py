@@ -3,6 +3,8 @@
 import csv
 import requests
 import requests_html
+import urllib3
+from urllib3.exceptions import ProtocolError
 import time
 
 # local path
@@ -22,7 +24,7 @@ if r.status_code != 200:
 # select table
 table = r.html.find("figure[class=wp-block-table]")[0].find("table")[0]
 
-# get data
+# get data from EuropeElects.eu
 data = []
 for row in table.find('tr'):
   cells = row.find('td')
