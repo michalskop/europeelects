@@ -1,8 +1,10 @@
 Polling Firm,Commissioners,Fieldwork Start,Fieldwork End,Scope,Sample Size,Sample Size Qualification,Participation,Precision,CDU+CSU,SPD,AfD,FDP,Linke,Grüne,CDU,CSU,Piraten,FW,BSW,Other
+INSA and YouGov,,2024-01-15,2024-01-19,National,1203,Provided,Not Available,1%,30%,13%,22%,5%,3%,13%,Not Available,Not Available,Not Available,3%,7%,4%
 INSA and YouGov,,2024-01-12,2024-01-15,National,2004,Provided,Not Available,1%,Not Available,14%,23%,5%,4%,12%,24%,7%,Not Available,3%,Not Available,8%
 Forsa,,2024-01-09,2024-01-15,National,2504,Provided,Not Available,1%,31%,13%,22%,4%,4%,14%,Not Available,Not Available,Not Available,3%,Not Available,9%
 INSA and YouGov,,2024-01-11,2024-01-12,National,1002,Provided,Not Available,1%,27%,14%,18%,4%,3%,12%,Not Available,Not Available,Not Available,3%,14%,5%
 INSA and YouGov,,2024-01-08,2024-01-12,National,1202,Provided,Not Available,1%,30%,15%,22%,5%,4%,12%,Not Available,Not Available,Not Available,3%,Not Available,9%
+Verian,,2024-01-09,2024-01-11,National,1359,Provided,Not Available,1%,31%,14%,22%,4%,4%,16%,Not Available,Not Available,Not Available,3%,Not Available,6%
 Forschungsgruppe Wahlen,,2024-01-09,2024-01-11,National,1337,Provided,79%,1%,31%,13%,22%,4%,4%,14%,Not Available,Not Available,Not Available,4%,4%,4%
 INSA and YouGov,,2024-01-05,2024-01-08,National,2008,Provided,Not Available,1%,32%,16%,23%,5%,4%,12%,Not Available,Not Available,Not Available,3%,Not Available,5%
 YouGov,,2024-01-03,2024-01-08,National,2007,Provided,Not Available,1%,29%,15%,24%,6%,5%,12%,Not Available,Not Available,Not Available,2%,Not Available,7%
@@ -255,8 +257,8 @@ INSA and YouGov,,2023-03-06,2023-03-10,National,1268,Provided,Not Available,1%,2
 YouGov,,2023-03-03,2023-03-07,National,1649,Provided,Not Available,1%,28%,20%,17%,6%,7%,16%,Not Available,Not Available,Not Available,1%,Not Available,6%
 Kantar,,2023-03-01,2023-03-07,National,1504,Provided,Not Available,1%,29%,19%,13%,7%,5%,19%,Not Available,Not Available,Not Available,Not Available,Not Available,8%
 Forsa,,2023-03-06,2023-03-06,National,2504,Provided,Not Available,1%,31%,20%,13%,5%,5%,17%,Not Available,Not Available,Not Available,Not Available,Not Available,9%
-INSA and YouGov,,2023-03-03,2023-03-06,National,2007,Provided,Not Available,0.5%,29.5%,20%,15.5%,7.5%,5%,15.5%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
 INSA and YouGov,,2023-03-03,2023-03-06,National,2007,Provided,Not Available,0.5%,Not Available,20%,15.5%,7.5%,5%,15.5%,23.5%,6%,Not Available,Not Available,Not Available,7%
+INSA and YouGov,,2023-03-03,2023-03-06,National,2007,Provided,Not Available,0.5%,29.5%,20%,15.5%,7.5%,5%,15.5%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
 Ipsos,,2023-03-03,2023-03-04,National,1000,Provided,Not Available,1%,27%,20%,15%,7%,5%,18%,Not Available,Not Available,Not Available,Not Available,Not Available,8%
 INSA and YouGov,,2023-03-03,2023-03-03,National,1203,Provided,Not Available,1%,30%,20%,15%,7%,5%,16%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
 Forschungsgruppe Wahlen,,2023-03-02,2023-03-02,National,1165,Provided,76.0%,1%,29%,21%,15%,5%,5%,18%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
@@ -3123,8 +3125,8 @@ GMS,,2011-03-21,2011-03-21,National,Not Available,Not Available,Not Available,1%
 Kantar,,2011-03-20,2011-03-20,National,Not Available,Not Available,Not Available,1%,34%,28%,Not Available,5%,9%,18%,Not Available,Not Available,Not Available,Not Available,Not Available,6%
 Infratest,,2011-03-18,2011-03-18,National,Not Available,Not Available,Not Available,1%,35%,28%,Not Available,5%,7%,20%,Not Available,Not Available,Not Available,Not Available,Not Available,5%
 Allensbach,,2011-03-16,2011-03-16,National,Not Available,Not Available,Not Available,0.5%,36.5%,29.0%,Not Available,6.5%,8.0%,15.0%,Not Available,Not Available,Not Available,Not Available,Not Available,5.0%
-Forsa,,2011-03-16,2011-03-16,National,Not Available,Not Available,Not Available,1%,36%,26%,Not Available,5%,9%,18%,Not Available,Not Available,Not Available,Not Available,Not Available,6%
 Forsa,,2011-03-16,2011-03-16,National,Not Available,Not Available,Not Available,1%,36%,26%,Not Available,6%,10%,15%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
+Forsa,,2011-03-16,2011-03-16,National,Not Available,Not Available,Not Available,1%,36%,26%,Not Available,5%,9%,18%,Not Available,Not Available,Not Available,Not Available,Not Available,6%
 Kantar,,2011-03-13,2011-03-13,National,Not Available,Not Available,Not Available,1%,35%,28%,Not Available,6%,10%,15%,Not Available,Not Available,Not Available,Not Available,Not Available,6%
 Infratest,,2011-03-10,2011-03-10,National,Not Available,Not Available,Not Available,1%,35%,28%,Not Available,6%,9%,15%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
 Forsa,,2011-03-09,2011-03-09,National,Not Available,Not Available,Not Available,1%,36%,26%,Not Available,5%,10%,16%,Not Available,Not Available,Not Available,Not Available,Not Available,7%
