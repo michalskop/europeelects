@@ -51,8 +51,13 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
-  if r.status_code == 200:
-    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
-      f.write(r.content)
+  try:
+      r = requests.get(d["data_link"])
+      if r.status_code == 200:
+        with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+          f.write(r.content)
+      elif r.status_code != 200:
+          print('Error downloading data for country:', d["country_code"], '. Skipping...')
+  except Exception as e:
+      print('Error:', e)
   time.sleep(1)
