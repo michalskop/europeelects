@@ -2,11 +2,16 @@
 
 import csv
 import requests
+from requests.exceptions import ChunkedEncodingError
 import requests_html
 import time
+from urllib3.exceptions import InvalidChunkLength
 
 # local path
+from urllib3.exceptions import InvalidChunkLength
 localpath = "v2/"
+
+relevant_files = "v2/download.py"
 
 # overview table url
 url0 = "https://europeelects.eu/data/"
@@ -51,7 +56,11 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
+  try:
+      r = requests.get(d["data_link"])
+  except ChunkedEncodingError:
+      print('Error: ChunkedEncodingError occurred. Continuing to the next iteration of the loop.')
+      continue
   if r.status_code == 200:
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
       f.write(r.content)
