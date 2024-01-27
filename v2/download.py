@@ -2,6 +2,7 @@
 
 import csv
 import requests
+import csv
 import requests_html
 import time
 
@@ -51,8 +52,11 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
-  if r.status_code == 200:
-    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
-      f.write(r.content)
-  time.sleep(1)
+  try:
+    r = requests.get(d["data_link"])
+    if r.status_code == 200:
+      with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+        f.write(r.content)
+    time.sleep(1)
+  except Exception as e:
+    print(f"Error downloading data for {d['country_code']}: {e}")
