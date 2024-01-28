@@ -2,6 +2,7 @@
 
 import csv
 import requests
+import csv
 import requests_html
 import time
 
@@ -45,14 +46,23 @@ for row in table.find('tr'):
 
 # write data to csv
 with open(localpath + "list.csv", "w") as f:
+
+# write data to csv
+with open(localpath + "list.csv", "w") as f:
+# write data to csv
+with open(localpath + "list.csv", "w") as f:
+import requests_html
+import csv
   writer = csv.DictWriter(f, fieldnames=data[0].keys())
   writer.writeheader()
   writer.writerows(data)
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
+  r = requests.get(d["data_link"], stream=True)
   if r.status_code == 200:
+    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+        f.write(r.content)
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
       f.write(r.content)
   time.sleep(1)
