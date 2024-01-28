@@ -4,6 +4,9 @@ import csv
 import requests
 import requests_html
 import time
+import os
+import shutil
+import requests.exceptions
 
 # local path
 localpath = "v2/"
@@ -51,8 +54,21 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
-  if r.status_code == 200:
-    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
-      f.write(r.content)
+  max_retries = 3
+retry = 0
+while retry < max_retries:
+  try:
+    r = requests.get(d["data_link"])
+    if r.status_code == 200:
+      # Write to temp file
+      with open(localpath + "data/" + d["country_code"] + ".tmp", "wb") as f:
+        f.write(r.content)
+      # Move temp file to final location
+      shutil.move(localpath + "data/" + d["country_code"] + ".tmp", localpath + "data/" + d["country_code"] + ".csv")
+    break
+  except requests.exceptions.ChunkedEncodingError:
+    retry += 1
+  time.sleep(1)
+if retry == max_retries:
+  raise Exception("Max retries reached, could not download data.")
   time.sleep(1)
