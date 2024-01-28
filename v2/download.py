@@ -3,6 +3,7 @@
 import csv
 import requests
 import requests_html
+import csv
 import time
 
 # local path
