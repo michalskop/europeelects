@@ -1,8 +1,12 @@
 """Download data from EuropeElects.eu."""
 
+import traceback
 import csv
+import traceback
 import requests
 import requests_html
+import urllib3
+from urllib3.exceptions import ProtocolError
 import time
 
 # local path
@@ -22,7 +26,7 @@ if r.status_code != 200:
 # select table
 table = r.html.find("figure[class=wp-block-table]")[0].find("table")[0]
 
-# get data
+# get data from EuropeElects.eu
 data = []
 for row in table.find('tr'):
   cells = row.find('td')
@@ -33,8 +37,9 @@ for row in table.find('tr'):
     try:
       data_link = cells[1].find('a', first=True).attrs['href']
       country_code = data_link.split("/")[-1].split(".")[0]
-    except:
-      data_link = None
+    except Exception as e:
+      print(f"Error processing row: {e}")
+      continue
     if country_name and country_link and data_link:
       data.append({
         "country_code": country_code,
@@ -42,12 +47,19 @@ for row in table.find('tr'):
         "country_link": country_link,
         "data_link": data_link
       })
+  else:
+    print("No cells found for row")
+      })
 
 # write data to csv
 with open(localpath + "list.csv", "w") as f:
   writer = csv.DictWriter(f, fieldnames=data[0].keys())
   writer.writeheader()
-  writer.writerows(data)
+  try:
+    writer.writerows(data)
+except Exception as e:
+    print('Error writing to CSV file:', e)
+    raise Exception('Failed to write to CSV file')
 
 # download data
 for d in data:
