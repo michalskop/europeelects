@@ -24,7 +24,8 @@ table = r.html.find("figure[class=wp-block-table]")[0].find("table")[0]
 
 # get data
 data = []
-for row in table.find('tr'):
+try:
+    for row in table.find('tr'):
   cells = row.find('td')
   if cells:
     country = cells[0].find('a', first=True)
@@ -43,16 +44,25 @@ for row in table.find('tr'):
         "data_link": data_link
       })
 
-# write data to csv
-with open(localpath + "list.csv", "w") as f:
-  writer = csv.DictWriter(f, fieldnames=data[0].keys())
-  writer.writeheader()
-  writer.writerows(data)
+      # write data to csv
+      with open(localpath + "list.csv", "w") as f:
+          writer = csv.DictWriter(f, fieldnames=data[0].keys())
+          writer.writeheader()
+          writer.writerows(data)
 
-# download data
-for d in data:
-  r = requests.get(d["data_link"])
-  if r.status_code == 200:
-    with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
-      f.write(r.content)
-  time.sleep(1)
+      # download data
+      for d in data:
+          max_retries = 3
+          retries = 0
+          while retries < max_retries:
+              try:
+                  r = requests.get(d["data_link"])
+                  if r.status_code == 200:
+                      with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+                          f.write(r.content)
+                      break
+              except requests.exceptions.ChunkedEncodingError:
+                  retries += 1
+                  if retries == max_retries:
+                      raise Exception("Could not download data.")
+              time.sleep(1)
