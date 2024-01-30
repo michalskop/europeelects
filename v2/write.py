@@ -3,7 +3,8 @@
 import gspread
 import gspread_formatting
 import pandas as pd
-import time
+import typing
+from typing import List
 
 # suppress SettingWithCopyWarning
 # import warnings
@@ -77,7 +78,7 @@ for c in df0.iterrows():
     except:
       worksheet = sh.add_worksheet(title=sheetname, rows="100", cols="20")
     worksheet.clear()
-    worksheet.update([header0] + df1.loc[:, header0].values.tolist())
+    worksheet.update([df2.columns.values.tolist()] + df2.values.tolist(), col + '1')
     # set column of type iso date
     col = chr(header0.index('start_date') + ord('A'))
     worksheet.format(col + '2:' + col, {'numberFormat': {'type': 'DATE', 'pattern': 'yyyy-mm-dd'}})
