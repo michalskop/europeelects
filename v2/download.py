@@ -3,6 +3,10 @@
 import csv
 import requests
 import requests_html
+import csv
+import urllib3.exceptions.InvalidChunkLength
+import requests.exceptions.ChunkedEncodingError
+import urllib3.exceptions.ProtocolError
 import time
 
 # local path
@@ -51,8 +55,13 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = requests.get(d["data_link"])
-  if r.status_code == 200:
+  try:
+    r = requests.get(d["data_link"])
+    if r.status_code != 200:
+      raise Exception("Could not download data.")
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
       f.write(r.content)
-  time.sleep(1)
+    time.sleep(1)
+  except urllib3.exceptions.InvalidChunkLength as e:
+    print("Error downloading data: InvalidChunkLength. Skipping the current iteration.")
+    continue
