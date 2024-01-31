@@ -92,7 +92,7 @@ for c in df0.iterrows():
     worksheet.freeze(rows=1)
     # resize G Sheets columns width
     last_col = colnum_to_a1(len(header0) + len(df2.columns) + 1)
-    gspread_formatting.set_column_width(worksheet, "A:" + last_col , 70)
+    worksheet.set_column_width("A:" + last_col , 70)
     # wait to avoid rate limit
     print("Wrote " + sheetname + ". Waiting 10 seconds...")
     time.sleep(10)
