@@ -87,7 +87,7 @@ for c in df0.iterrows():
     worksheet.format(col + '2:' + col, {'numberFormat': {'type': 'DATE', 'pattern': 'yyyy-mm-dd'}})
     # write data
     col = chr(len(header0) + 1 + ord('A'))
-    worksheet.update(col + '1', [df2.columns.values.tolist()] + df2.values.tolist())
+    worksheet.update(range_name=col + '1', values=[df2.columns.values.tolist()] + df2.values.tolist())
     # freeze header
     worksheet.freeze(rows=1)
     # resize G Sheets columns width
