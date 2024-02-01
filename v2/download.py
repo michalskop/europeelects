@@ -51,10 +51,11 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
-  r = session.get(url0, stream=True)
+  r = session.get(d["data_link"], stream=True)
   r.raise_for_status()
-  r.raw.decode_content = True
-  r = requests.get(d["data_link"])
+  with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
+    for chunk in r.iter_content(chunk_size=8192):
+      f.write(chunk)
   if r.status_code == 200:
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
       f.write(r.content)
