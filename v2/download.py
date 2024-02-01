@@ -51,6 +51,9 @@ with open(localpath + "list.csv", "w") as f:
 
 # download data
 for d in data:
+  r = session.get(url0, stream=True)
+  r.raise_for_status()
+  r.raw.decode_content = True
   r = requests.get(d["data_link"])
   if r.status_code == 200:
     with open(localpath + "data/" + d["country_code"] + ".csv", "wb") as f:
