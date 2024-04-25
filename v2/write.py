@@ -95,7 +95,7 @@ for c in df0.iterrows():
     worksheet.batch_update([{'range': "A:" + last_col, 'properties': {'pixelSize': 70}}])
     # wait to avoid rate limit
     print("Wrote " + sheetname + ". Waiting 10 seconds...")
-    time.sleep(10)
+    time.sleep(15)
 
 # write list of countries
 dfc = df0[["country_code", "country_name"]]
