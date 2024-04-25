@@ -49,8 +49,8 @@ for c in df0.iterrows():
     df1['poll:identifier'] = list(range(len(df1), 0, -1))
     df1.rename(columns={"Polling Firm": "pollster:id", "Fieldwork Start": "start_date", "Fieldwork End": "end_date", "Sample Size": "n", "Commissioners": "sponsor"}, inplace=True)
     # calculate middle date
-    df1['start_date'] = pd.to_datetime(df1['start_date'])
-    df1['end_date'] = pd.to_datetime(df1['end_date'])
+    df1['start_date'] = pd.to_datetime(df1['start_date'], errors='coerce')
+    df1['end_date'] = pd.to_datetime(df1['end_date'], errors='coerce')
     df1['middle_date'] = df1['start_date'] + (df1['end_date'] - df1['start_date']) / 2
     df1['days to elections'] = None
     # revert to excel serial date
@@ -87,12 +87,12 @@ for c in df0.iterrows():
     worksheet.format(col + '2:' + col, {'numberFormat': {'type': 'DATE', 'pattern': 'yyyy-mm-dd'}})
     # write data
     col = chr(len(header0) + 1 + ord('A'))
-    worksheet.update(col + '1', [df2.columns.values.tolist()] + df2.values.tolist())
+    worksheet.update(range_name=col + '1', values=[df2.columns.values.tolist()] + df2.values.tolist())
     # freeze header
     worksheet.freeze(rows=1)
     # resize G Sheets columns width
     last_col = colnum_to_a1(len(header0) + len(df2.columns) + 1)
-    gspread_formatting.set_column_width(worksheet, "A:" + last_col , 70)
+    gspread_formatting.set_column_width(worksheet.spreadsheet, "A:" + last_col , 70)
     # wait to avoid rate limit
     print("Wrote " + sheetname + ". Waiting 10 seconds...")
     time.sleep(15)
