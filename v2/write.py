@@ -95,7 +95,7 @@ for c in df0.iterrows():
     worksheet.set_column_width("A:" + last_col , 70)
     # wait to avoid rate limit
     print("Wrote " + sheetname + ". Waiting 10 seconds...")
-    time.sleep(10)
+    time.sleep(15)
 
 # write list of countries
 dfc = df0[["country_code", "country_name"]]
