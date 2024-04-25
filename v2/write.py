@@ -77,9 +77,8 @@ for c in df0.iterrows():
     except:
       worksheet = sh.add_worksheet(title=sheetname, rows="100", cols="20")
     worksheet.clear()
+    worksheet.update(col + '1', [df2.columns.values.tolist()] + df2.values.tolist())
     worksheet.update([header0] + df1.loc[:, header0].values.tolist())
-    # set column of type iso date
-    col = chr(header0.index('start_date') + ord('A'))
     worksheet.format(col + '2:' + col, {'numberFormat': {'type': 'DATE', 'pattern': 'yyyy-mm-dd'}})
     col = chr(header0.index('middle_date') + ord('A'))
     worksheet.format(col + '2:' + col, {'numberFormat': {'type': 'DATE', 'pattern': 'yyyy-mm-dd'}})
@@ -92,7 +91,7 @@ for c in df0.iterrows():
     worksheet.freeze(rows=1)
     # resize G Sheets columns width
     last_col = colnum_to_a1(len(header0) + len(df2.columns) + 1)
-    gspread_formatting.set_column_width(worksheet, "A:" + last_col , 70)
+    gspread_formatting.set_column_width(worksheet.spreadsheet, "A:" + last_col , 70)
     # wait to avoid rate limit
     print("Wrote " + sheetname + ". Waiting 10 seconds...")
     time.sleep(15)
